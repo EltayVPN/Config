@@ -10,19 +10,7 @@
             "Region": "",
             "City": "Berlin",
             "Signal": "C",
-            "OpenVPN_Config": "client\ndev tun\nproto udp\nremote 89.116.25.39 443\ncipher AES-128-CBC\nauth SHA1\nresolv-retry infinite\nnobind\npersist-key\npersist-tun\nclient\nverb 3\ndata-ciphers AES-256-GCM:AES-128-GCM:CHACHA20-POLY1305:AES-128-CBC\npull-filter ignore \"route\"\npull-filter ignore \"dhcp-option\"\nverify-x509-name \"elma.ir\" name\nauth-user-pass\n<auth-user-pass>\ntest\n123456\n</auth-user-pass>\n<ca>\n-----BEGIN CERTIFICATE-----\nMIIDPzCCAiegAwIBAgIUVlwcS4W7KtBgipzmfAhoFbqhgZEwDQYJKoZIhvcNAQEL\nBQAwEjEQMA4GA1UEAwwHZWxtYS5pcjAeFw0yNDA5MjkxMDE4MzFaFw0zNDA5Mjcx\nMDE4MzFaMBIxEDAOBgNVBAMMB2VsbWEuaXIwggEiMA0GCSqGSIb3DQEBAQUAA4IB\nDwAwggEKAoIBAQCt9gO7MfinqUiNgtR7Gh9VSA3Ic1SdhubqKfPPzPztW/pw7Lv9\nbPLRRm/mWGNiRZYiJtgGMTO6QqVuhnNltmBRYWC86UewKaML+O+yh4as9WWuJv+j\nI8I3ECiILyLbbhtM2b7Q3bNWz3ICRqKwkNQYKFhYuMdmMxUIZj3QgfHW22lAJOYw\nrDzROJVl46YLQBm55esaZdWAnahPGDfHp5COCqA/xRYfCvbkroh9JUaJjkrK74I1\nJbn3qU94Zi6uQ6FTPLLfruShaNtvLdSvh+XD/zz6t+P41z52USJ5hjoP9HnFk13/\nWWBpCpIS/a1MXnuzR5nleb987KxDnwVcL+BlAgMBAAGjgYwwgYkwHQYDVR0OBBYE\nFCeHzH+TRRlkhxzQHUHMiS0lJDqgME0GA1UdIwRGMESAFCeHzH+TRRlkhxzQHUHM\niS0lJDqgoRakFDASMRAwDgYDVQQDDAdlbG1hLmlyghRWXBxLhbsq0GCKnOZ8CGgV\nuqGBkTAMBgNVHRMEBTADAQH/MAsGA1UdDwQEAwIBBjANBgkqhkiG9w0BAQsFAAOC\nAQEABDcJ5DFXHIEB3qJ5GensKkNUoGKUFK4TztqXp+Z3IOHN1QsyepIrwf4QRKds\nvLbh79k3mz6OTpEbY+5HKJmVgh0BxJEdx2sngtcTgvMhwhaMvLEcVWd4e6J+rwRl\niWgixxtvsexWi4jOdpBsCYKRdiEP4fg62ENcFrPZIRvIL5X2s5nGtNKj2rCQSJaJ\nnrBw+km4n19TItOfEue+R0c5lWc3KNFD9rE9I6qt/L1h2wYkObUjH9TX6+fQcH+s\njMLMepZ4q20cROqnnFbxavGE6jCDJLwEHRSlXDO/F21MShPQWf/VmgOqhPnio2ZG\n3UG4fm+fNKFRG9RAmdy/WwNPHg==\n-----END CERTIFICATE-----\n</ca>\n"
-        },
-        {
-            "HostName": "VPN2",
-            "IP": "84.247.166.147",
-            "Score": "54321",
-            "Ping": "60",
-            "Speed": "80Mbps",
-            "Country": "Netherlands",
-            "Region": "",
-            "City": "Amsterdam",
-            "Signal": "B",
-            "OpenVPN_Config": "client\ndev tun\nproto udp\nremote 84.247.166.147 443\ncipher AES-128-CBC\nauth SHA1\nresolv-retry infinite\nnobind\npersist-key\npersist-tun\nclient\nverb 3\n<ca>\n-----BEGIN CERTIFICATE-----\nMIIDLjCCAhagAwIBAgIBADANBgkqhkiG9w0BAQsFADAWMRQwEgYDVQQDDAtMaW11\n-----END CERTIFICATE-----\n</ca>\n"
+            "OpenVPN_Config": "client\\ndev tun\\nproto udp\\nremote 89.116.25.39 443\\ncipher AES-128-CBC\\nauth SHA1\\nresolv-retry infinite\\nnobind\\npersist-key\\npersist-tun\\nclient\\nverb 3\\ndata-ciphers AES-256-GCM:AES-128-GCM:CHACHA20-POLY1305:AES-128-CBC\\npull-filter ignore \\\"route\\\"\\npull-filter ignore \\\"dhcp-option\\\"\\nverify-x509-name \\\"elma.ir\\\" name\\nauth-user-pass\\n<auth-user-pass>\\ntest\\n123456\\n</auth-user-pass>\\n<ca>\\n-----BEGIN CERTIFICATE-----\\nMIIDPzCCAiegAwIBAgIUVlwcS4W7KtBgipzmfAhoFbqhgZEwDQYJKoZIhvcNAQEL\\nBQAwEjEQMA4GA1UEAwwHZWxtYS5pcjAeFw0yNDA5MjkxMDE4MzFaFw0zNDA5Mjcx\\nMDE4MzFaMBIxEDAOBgNVBAMMB2VsbWEuaXIwggEiMA0GCSqGSIb3DQEBAQUAA4IB\\nDwAwggEKAoIBAQCt9gO7MfinqUiNgtR7Gh9VSA3Ic1SdhubqKfPPzPztW/pw7Lv9\\nbPLRRm/mWGNiRZYiJtgGMTO6QqVuhnNltmBRYWC86UewKaML+O+yh4as9WWuJv+j\\nI8I3ECiILyLbbhtM2b7Q3bNWz3ICRqKwkNQYKFhYuMdmMxUIZj3QgfHW22lAJOYw\\nrDzROJVl46YLQBm55esaZdWAnahPGDfHp5COCqA/xRYfCvbkroh9JUaJjkrK74I1\\nJbn3qU94Zi6uQ6FTPLLfruShaNtvLdSvh+XD/zz6t+P41z52USJ5hjoP9HnFk13/\\nWWBpCpIS/a1MXnuzR5nleb987KxDnwVcL+BlAgMBAAGjgYwwgYkwHQYDVR0OBBYE\\nFCeHzH+TRRlkhxzQHUHMiS0lJDqgME0GA1UdIwRGMESAFCeHzH+TRRlkhxzQHUHM\\niS0lJDqgoRakFDASMRAwDgYDVQQDDAdlbG1hLmlyghRWXBxLhbsq0GCKnOZ8CGgV\\nuqGBkTAMBgNVHRMEBTADAQH/MAsGA1UdDwQEAwIBBjANBgkqhkiG9w0BAQsFAAOC\\nAQEABDcJ5DFXHIEB3qJ5GensKkNUoGKUFK4TztqXp+Z3IOHN1QsyepIrwf4QRKds\\nvLbh79k3mz6OTpEbY+5HKJmVgh0BxJEdx2sngtcTgvMhwhaMvLEcVWd4e6J+rwRl\\niWgixxtvsexWi4jOdpBsCYKRdiEP4fg62ENcFrPZIRvIL5X2s5nGtNKj2rCQSJaJ\\nnrBw+km4n19TItOfEue+R0c5lWc3KNFD9rE9I6qt/L1h2wYkObUjH9TX6+fQcH+s\\njMLMepZ4q20cROqnnFbxavGE6jCDJLwEHRSlXDO/F21MShPQWf/VmgOqhPnio2ZG\\n3UG4fm+fNKFRG9RAmdy/WwNPHg==\\n-----END CERTIFICATE-----\\n</ca>"
         }
     ]
 }
