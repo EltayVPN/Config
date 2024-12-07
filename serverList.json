@@ -10,7 +10,8 @@
             "Region": "",
             "City": "Berlin",
             "Signal": "C",
-            "OpenVPN_Config": "client\n
+            "OpenVPN_Config": "
+			client
 dev tun
 proto udp
 remote 89.116.25.39 443
@@ -119,7 +120,8 @@ Ws3LlNQ+qilVrwtR5G/zXlijd/ZndY5OctWIcJiqdm4yzdaug3gWqvi2MnRoE1dd
             "Region": "",
             "City": "Amsterdam",
             "Signal": "B",
-            "OpenVPN_Config": "client\n
+            "OpenVPN_Config": "
+			client
 dev tun
 proto udp
 remote 84.247.166.147 443
