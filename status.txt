@@ -1,2 +1,2 @@
 red
-"server is availible".
+همه سرور ها در دسترس هستند
