@@ -1,6 +1,6 @@
 {
     "serverNotification": {
-    	"appVersion" : "1.6.0",
+    	"appVersion" : "1.1.0",
         "color": "green",
         "message": ".همه سرور ها در دسترس هستند"
     },
